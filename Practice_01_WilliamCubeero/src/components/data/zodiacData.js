@@ -1,0 +1,103 @@
+// src/data/zodiacData.js
+
+const zodiacData = [
+    {
+      name: 'Aries',
+      dateRange: 'Mar 21 - Apr 19',
+      element: 'Fuego',
+      celestialBody: 'Marte',
+      gemstone: 'Diamante',
+      image: require('../imgs/zodiac/aries.png'),
+    },
+    {
+      name: 'Tauro',
+      dateRange: 'Apr 20 - May 20',
+      element: 'Tierra',
+      celestialBody: 'Venus',
+      gemstone: 'Esmeralda',
+      image: require('../imgs/zodiac/taurus.png'),
+    },
+    {
+      name: 'Géminis',
+      dateRange: 'May 21 - Jun 20',
+      element: 'Aire',
+      celestialBody: 'Mercurio',
+      gemstone: 'Ágata',
+      image: require('../imgs/zodiac/gemini.png'),
+    },
+    {
+      name: 'Cáncer',
+      dateRange: 'Jun 21 - Jul 22',
+      element: 'Agua',
+      celestialBody: 'Luna',
+      gemstone: 'Perla',
+      image: require('../imgs/zodiac/cancer.png'),
+    },
+    {
+      name: 'Leo',
+      dateRange: 'Jul 23 - Aug 22',
+      element: 'Fuego',
+      celestialBody: 'Sol',
+      gemstone: 'Rubí',
+      image: require('../imgs/zodiac/leo.png'),
+    },
+    {
+      name: 'Virgo',
+      dateRange: 'Aug 23 - Sep 22',
+      element: 'Tierra',
+      celestialBody: 'Mercurio',
+      gemstone: 'Zafiro',
+      image: require('../imgs/zodiac/virgo.png'),
+    },
+    {
+      name: 'Libra',
+      dateRange: 'Sep 23 - Oct 22',
+      element: 'Aire',
+      celestialBody: 'Venus',
+      gemstone: 'Ópalo',
+      image: require('../imgs/zodiac/libra.png'),
+    },
+    {
+      name: 'Escorpio',
+      dateRange: 'Oct 23 - Nov 21',
+      element: 'Agua',
+      celestialBody: 'Plutón',
+      gemstone: 'Topacio',
+      image: require('../imgs/zodiac/scorpio.png'),
+    },
+    {
+      name: 'Sagitario',
+      dateRange: 'Nov 22 - Dec 21',
+      element: 'Fuego',
+      celestialBody: 'Júpiter',
+      gemstone: 'Turquesa',
+      image: require('../imgs/zodiac/sagittarius.png'),
+    },
+    {
+      name: 'Capricornio',
+      dateRange: 'Dec 22 - Jan 19',
+      element: 'Tierra',
+      celestialBody: 'Saturno',
+      gemstone: 'Granate',
+      image: require('../imgs/zodiac/capricorn.png'),
+    },
+    {
+      name: 'Acuario',
+      dateRange: 'Jan 20 - Feb 18',
+      element: 'Aire',
+      celestialBody: 'Urano',
+      gemstone: 'Amatista',
+      image: require('../imgs/zodiac/aquarius.png'),
+    },
+    {
+      name: 'Piscis',
+      dateRange: 'Feb 19 - Mar 20',
+      element: 'Agua',
+      celestialBody: 'Neptuno',
+      gemstone: 'Aguamarina',
+      image: require('../imgs/zodiac/pisces.png'),
+    },
+  ];
+  
+  export default zodiacData;
+  
